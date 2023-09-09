@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "src\Templ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "src\Decorator\Decorator.csproj", "{B9E5382E-DD86-4B0E-A087-0D981EB261FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "src\State\State.csproj", "{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{B9E5382E-DD86-4B0E-A087-0D981EB261FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9E5382E-DD86-4B0E-A087-0D981EB261FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9E5382E-DD86-4B0E-A087-0D981EB261FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

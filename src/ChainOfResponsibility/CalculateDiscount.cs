@@ -2,7 +2,7 @@
 
 public class CalculateDiscount
 {
-    public float Execute(float value)
+    public float Handle(float value)
     {
         var withoutDiscount = new WithoutDiscount();
         var discountTwenty = new DiscountTwentyPercent(withoutDiscount);
