@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "src\Decorator\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "src\State\State.csproj", "{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "src\Builder\Builder.csproj", "{516B4568-3359-4374-B107-2D8319F89012}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516B4568-3359-4374-B107-2D8319F89012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516B4568-3359-4374-B107-2D8319F89012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516B4568-3359-4374-B107-2D8319F89012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516B4568-3359-4374-B107-2D8319F89012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
