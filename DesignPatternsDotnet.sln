@@ -1,20 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "src\Strategy\Strategy.csproj", "{15A1B330-22F4-4B09-B892-A1854ACFD5D4}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "src\Strategy\Strategy.csproj", "{15A1B330-22F4-4B09-B892-A1854ACFD5D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commons", "src\Commons\Commons.csproj", "{92807DD7-EC53-4B20-A667-E9DA384F8757}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commons", "src\Commons\Commons.csproj", "{92807DD7-EC53-4B20-A667-E9DA384F8757}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "src\ChainOfResponsibility\ChainOfResponsibility.csproj", "{08EAAF07-B4E3-4B4F-A408-D1BA7BCFDDC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "src\ChainOfResponsibility\ChainOfResponsibility.csproj", "{08EAAF07-B4E3-4B4F-A408-D1BA7BCFDDC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "src\TemplateMethod\TemplateMethod.csproj", "{D8739B9A-4833-4F8F-B299-E94AEA8FA823}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "src\TemplateMethod\TemplateMethod.csproj", "{D8739B9A-4833-4F8F-B299-E94AEA8FA823}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "src\Decorator\Decorator.csproj", "{B9E5382E-DD86-4B0E-A087-0D981EB261FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "src\Decorator\Decorator.csproj", "{B9E5382E-DD86-4B0E-A087-0D981EB261FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "src\State\State.csproj", "{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "src\State\State.csproj", "{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "src\Builder\Builder.csproj", "{516B4568-3359-4374-B107-2D8319F89012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "src\Builder\Builder.csproj", "{516B4568-3359-4374-B107-2D8319F89012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "src\Observer\Observer.csproj", "{93B67C1C-E49C-417B-B947-567F0ADD80A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "src\Observer\Observer.csproj", "{93B67C1C-E49C-417B-B947-567F0ADD80A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{69DD7FD4-EE3D-45C2-A95E-758964905F23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,5 +59,18 @@ Global
 		{93B67C1C-E49C-417B-B947-567F0ADD80A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93B67C1C-E49C-417B-B947-567F0ADD80A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93B67C1C-E49C-417B-B947-567F0ADD80A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15A1B330-22F4-4B09-B892-A1854ACFD5D4} = {69DD7FD4-EE3D-45C2-A95E-758964905F23}
+		{92807DD7-EC53-4B20-A667-E9DA384F8757} = {69DD7FD4-EE3D-45C2-A95E-758964905F23}
+		{08EAAF07-B4E3-4B4F-A408-D1BA7BCFDDC7} = {69DD7FD4-EE3D-45C2-A95E-758964905F23}
+		{D8739B9A-4833-4F8F-B299-E94AEA8FA823} = {69DD7FD4-EE3D-45C2-A95E-758964905F23}
+		{B9E5382E-DD86-4B0E-A087-0D981EB261FD} = {69DD7FD4-EE3D-45C2-A95E-758964905F23}
+		{D58249C7-DCB2-410E-AD7B-FE7EAD943EAD} = {69DD7FD4-EE3D-45C2-A95E-758964905F23}
+		{516B4568-3359-4374-B107-2D8319F89012} = {69DD7FD4-EE3D-45C2-A95E-758964905F23}
+		{93B67C1C-E49C-417B-B947-567F0ADD80A9} = {69DD7FD4-EE3D-45C2-A95E-758964905F23}
 	EndGlobalSection
 EndGlobal

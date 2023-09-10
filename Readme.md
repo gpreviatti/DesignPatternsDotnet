@@ -4,10 +4,22 @@ The purpose of this project is to have base of knowledge about the principal des
 
 ## Projects with examples
 
-[Strategy](./src/Strategy/Readme.md)
+### Creational Patterns
+
+[Builder](./src/Builder/Readme.md)
+
+### Structural Patterns
+
+[Decorator](./src/Decorator/Readme.md)
+
+### Behavioral Patterns
 
 [Chain of Responsibility](./src/ChainOfResponsibility/Readme.md)
 
-[Template Method](./src/TemplateMethod/Readme.md)
+[Observer](./src/Observer/Readme.md)
 
-[Decorator](./src/Decorator/Readme.md)
+[State](./src/State/Readme.md)
+
+[Strategy](./src/Strategy/Readme.md)
+
+[Template Method](./src/TemplateMethod/Readme.md)
