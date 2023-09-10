@@ -24,10 +24,16 @@ public class OrderBuilder
         return this;
     }
 
-    public Order Build() => new()
+    public Order Build()
     {
-        Id = Id,
-        Value = Value,
-        OrderItems = OrderItems
-    };
+        var order = new Order()
+        {
+            Id = Id,
+            OrderItems = OrderItems
+        };
+
+        order.SetValue();
+
+        return order;
+    }
 }

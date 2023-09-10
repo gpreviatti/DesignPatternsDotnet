@@ -8,5 +8,5 @@ public class TaxCalculator
 
     public TaxCalculator(ITax tax) => _tax = tax;
 
-    public float Calcuate(float value) => _tax.Calculate(value);
+    public float Calculate(float value) => _tax.Calculate(value);
 }
