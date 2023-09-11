@@ -8,6 +8,8 @@ The purpose of this project is to have base of knowledge about the principal des
 
 [Builder](./src/Builder/Readme.md)
 
+[FactoryMethod](./src/FactoryMethod/Readme.md)
+
 ### Structural Patterns
 
 [Decorator](./src/Decorator/Readme.md)

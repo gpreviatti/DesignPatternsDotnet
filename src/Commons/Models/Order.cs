@@ -12,6 +12,6 @@ public class Order
         if (OrderItems is null)
             return;
 
-        Value = OrderItems.Select(x => x.Value).Sum();
+        Value = OrderItems.Sum(x => x.Value * x.Total);
     }
 }
