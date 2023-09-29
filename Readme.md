@@ -14,6 +14,8 @@ The purpose of this project is to have base of knowledge about the principal des
 
 [Decorator](./src/Decorator/Readme.md)
 
+[FlyWeight](./src/FlyWeight/Readme.md)
+
 ### Behavioral Patterns
 
 [Chain of Responsibility](./src/ChainOfResponsibility/Readme.md)
